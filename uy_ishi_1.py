@@ -1,9 +1,11 @@
 class Phone:
-    def __init__(self,brand,model,price):
+    def __init__(self, brand, model, price):
         self.brand = brand
         self.model = model
         self.price = price
-phone = Phone("IPhone","IPhone 15 pro",7500)
+
+phone = Phone("Samsung", "Galaxy S25 Ultra", 1200)
 print(phone.__dict__)
-phone.color = "Titanium"
+
+phone.color = "Black"
 print(phone.__dict__)
